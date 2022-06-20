@@ -5,9 +5,15 @@
 ## working nvida cuda
 ## testing with cuda
 ## install Ubuntu with non-default location
-https://hacktiming.tistory.com/61
-
-
+https://kontext.tech/article/308/how-to-install-windows-subsystem-for-linux-on-a-non-c-drive
+`
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseBasicParsing
+move .\Ubuntu.appx .\Ubuntu.zip
+Expand-Archive .\Ubuntu.zip
+cd .\Ubuntu\
+ .\ubuntu1804.exe
+`
 
 # How to delete WSL
 https://pinggoopark.tistory.com/109
@@ -16,4 +22,4 @@ https://pinggoopark.tistory.com/109
 wslconfig /l
 
 ### WSL image delete
-wslconfig /u <name of distribution>
+wslconfig /u <name of distribution>  
