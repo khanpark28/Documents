@@ -4,6 +4,8 @@
 ## WSL & WSL2
 ## working nvida cuda
 ## testing with cuda
+## install Ubuntu with non-default location
+https://hacktiming.tistory.com/61
 
 
 
