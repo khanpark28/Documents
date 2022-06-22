@@ -27,6 +27,24 @@ Esstional for cuda in WSL
 
 3. Nvidia cuDNN
   - https://developer.nvidia.com/cudnn 
+  - https://saltcoffee.tistory.com/entry/WSL2%EB%A1%9C-CUDA-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0
+    -> install cuDNN & related
+
+4. Install Pytorch based on cuda
+  - https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647
+  - (pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116)
+
+  - conda create -n TORCH-NAME python=3.8
+  - (remove : conda env 
+
+  - https://pytorch.org/get-started/locally/
+
+>> install Anaconda
+  - https://problemsolvingwithpython.com/01-Orientation/01.05-Installing-Anaconda-on-Linux/
+  - https://clouds.eos.ubc.ca/~phil/docs/problem_solving/01-Orientation/01.05-Installing-Anaconda-on-Linux.html
+
+>> install OpenCV
+  - conda install -c conda-forge opencv
 
 =======
 4. How to check Cuda Version
