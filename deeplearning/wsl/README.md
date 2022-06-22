@@ -23,3 +23,8 @@ wslconfig /l
 
 ### WSL image delete
 wslconfig /u <name of distribution>  
+
+
+### install more than one instance from one image
+https://blog.naver.com/techshare/222596544852
+https://www.sysnet.pe.kr/2/0/12569
