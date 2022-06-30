@@ -59,3 +59,9 @@ Esstional for cuda in WSL
 6. About GPGPU & Nvidia
   - https://89douner.tistory.com/158
 
+
+
+
+reference
+https://velog.io/@hailee98/Ubuntu-CUDA-cuDNN-%EC%84%A4%EC%B9%98
+https://webnautes.tistory.com/1171
