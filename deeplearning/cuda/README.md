@@ -13,6 +13,7 @@ Esstional for cuda in WSL
   - https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 
 	#######################################
+	
 	wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
 	
 	sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -26,6 +27,7 @@ Esstional for cuda in WSL
 	sudo apt-get update
 	
 	sudo apt-get -y install cuda
+	
 	#######################################
 
   - reference
