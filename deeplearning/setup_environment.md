@@ -9,8 +9,8 @@
 
 
 ## Ubuntu 인스턴스를 WSL 에서 삭제하는 방법
-https://positivemh.tistory.com/584
-# wslconfig.exe /u Ubuntu 
+(https://positivemh.tistory.com/584)
+wslconfig.exe /u Ubuntu 
 
 
 ## Step 2. WSL ubuntu 이미지를 반복해서 사용하는 방법
