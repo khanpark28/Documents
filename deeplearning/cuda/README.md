@@ -50,6 +50,7 @@ Esstional for cuda in WSL
 >> install Anaconda
   - https://problemsolvingwithpython.com/01-Orientation/01.05-Installing-Anaconda-on-Linux/
   - https://clouds.eos.ubc.ca/~phil/docs/problem_solving/01-Orientation/01.05-Installing-Anaconda-on-Linux.html
+  - https://repo.anaconda.com/archive/
 
 >> install OpenCV
   - conda install -c conda-forge opencv
