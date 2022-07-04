@@ -32,26 +32,28 @@ Esstional for cuda in WSL
 
 # Install Python with Anaconda
 ## install Anaconda
-  - https://problemsolvingwithpython.com/01-Orientation/01.05-Installing-Anaconda-on-Linux/
-  - https://clouds.eos.ubc.ca/~phil/docs/problem_solving/01-Orientation/01.05-Installing-Anaconda-on-Linux.html
-  - https://repo.anaconda.com/archive/
-  ```
-  wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
-  ```
-  ### create conda environment
-  conda create -n [env_name] [python=python_version] anaconda
-  ```
-  conda create -n torch anaconda
-  ```
+- https://problemsolvingwithpython.com/01-Orientation/01.05-Installing-Anaconda-on-Linux/
+- https://clouds.eos.ubc.ca/~phil/docs/problem_solving/01-Orientation/01.05-Installing-Anaconda-on-Linux.html
+- https://repo.anaconda.com/archive/
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+```
+### create conda environment
+conda create -n [env_name] [python=python_version] anaconda
+```
+conda create -n torch anaconda
+```
   
-  ### clone conda environment
-  conda create -n [env_name] --clone [source_env_name]
-  ```
-  conda create -n torch2 --clone anaconda-backup
-  ```
+### clone conda environment
+conda create -n [env_name] --clone [source_env_name]
+```
+conda create -n torch2 --clone anaconda-backup
+```
 
 ### install OpenCV
-  - conda install -c conda-forge opencv
+```
+conda install -c conda-forge opencv
+```
 
 # Install Pytorch based on cuda
 https://pytorch.org/get-started/locally/
