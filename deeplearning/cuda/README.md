@@ -55,11 +55,11 @@ Esstional for cuda in WSL
 
 # Install Pytorch based on cuda
 https://pytorch.org/get-started/locally/
-For 3070 laptop env
-- https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647)
+### For 3070 laptop env
+- https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647
 
 ```
-pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116)
+pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116
 ```
 
 
