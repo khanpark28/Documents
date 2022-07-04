@@ -43,6 +43,12 @@ Esstional for cuda in WSL
   ```
   conda create -n torch anaconda
   ```
+  
+  #### clone conda environment
+  conda create -n [env_name] --clone [source_env_name]
+  ```
+  conda create -n torch2 --clone anaconda-backup
+  ```
 
 ### install OpenCV
   - conda install -c conda-forge opencv
