@@ -17,6 +17,7 @@ https://robocademy.com/2020/05/01/a-gentle-introduction-to-yolo-v4-for-object-de
 https://1-1-2-3.tistory.com/7
 https://1-1-2-3.tistory.com/5?category=784190
 https://velog.io/@bangsy/Yolo-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+https://cloudxlab.com/blog/object-detection-yolo-and-python-pydarknet/
 
 
 ## Implementation Yolo 
@@ -28,10 +29,18 @@ https://herbwood.tistory.com/14
 https://github.com/AlexeyAB/darknet
 https://velog.io/@jhlee508/Object-Detection-YOLOv4-Darknet-%ED%95%99%EC%8A%B5%ED%95%98%EC%97%AC-Custom-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B8%EC%8B%9D-%EB%AA%A8%EB%8D%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-feat.-AlexeyABdarknet
 https://sj-d.tistory.com/10
+https://github.com/Tianxiaomo/pytorch-YOLOv4
+https://github.com/argusswift/YOLOv4-pytorch
+https://medium.com/analytics-vidhya/faster-real-time-object-detection-yolov4-in-pytorch-6eef8436ba75
+https://models.roboflow.com/object-detection/yolov4-pytorch
 
 
-## Yolo v5
+
+## Yolo v5  (official https://docs.ultralytics.com/tutorials/pytorch-hub/)
 https://ropiens.tistory.com/44
+https://pytorch.org/hub/ultralytics_yolov5/
+https://docs.ultralytics.com/tutorials/pytorch-hub/
+https://www.section.io/engineering-education/object-detection-with-yolov5-and-pytorch/
 
 
 
