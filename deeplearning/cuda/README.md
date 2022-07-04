@@ -54,13 +54,13 @@ Esstional for cuda in WSL
   - conda install -c conda-forge opencv
 
 # Install Pytorch based on cuda
-  - https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647
-  - (pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116)
+https://pytorch.org/get-started/locally/
+For 3070 laptop env
+- https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647)
 
-  - conda create -n TORCH-NAME python=3.8
-  - (remove : conda env 
-
-  - https://pytorch.org/get-started/locally/
+```
+pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116)
+```
 
 
 <hr>
