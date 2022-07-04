@@ -30,7 +30,24 @@ Esstional for cuda in WSL
   - https://saltcoffee.tistory.com/entry/WSL2%EB%A1%9C-CUDA-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0
     -> install cuDNN & related
 
-4. Install Pytorch based on cuda
+4. Install Python with Anaconda
+### install Anaconda
+  - https://problemsolvingwithpython.com/01-Orientation/01.05-Installing-Anaconda-on-Linux/
+  - https://clouds.eos.ubc.ca/~phil/docs/problem_solving/01-Orientation/01.05-Installing-Anaconda-on-Linux.html
+  - https://repo.anaconda.com/archive/
+  ```
+  wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+  ```
+  #### create conda environment
+  conda create -n [env_name] [python=python_version] anaconda
+  ```
+  conda create -n torch anaconda
+  ```
+
+### install OpenCV
+  - conda install -c conda-forge opencv
+
+5. Install Pytorch based on cuda
   - https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647
   - (pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116)
 
@@ -39,16 +56,6 @@ Esstional for cuda in WSL
 
   - https://pytorch.org/get-started/locally/
 
->> install Anaconda
-  - https://problemsolvingwithpython.com/01-Orientation/01.05-Installing-Anaconda-on-Linux/
-  - https://clouds.eos.ubc.ca/~phil/docs/problem_solving/01-Orientation/01.05-Installing-Anaconda-on-Linux.html
-  - https://repo.anaconda.com/archive/
-  ```
-  wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
-  ```
-
->> install OpenCV
-  - conda install -c conda-forge opencv
 
 =======
 4. How to check Cuda Version
