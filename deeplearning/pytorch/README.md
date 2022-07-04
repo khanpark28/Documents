@@ -23,6 +23,15 @@ pip install opencv-python
 ```
 Torchvision is also needed, but general way to install torchvision is not recommended since it override the special version for GTX 3070, which is installed already from installation for PyTorch.
 
+### Install specific version of torchvision
+- https://pypi.org/project/torchvision/
+- https://pytorch.kr/get-started/previous-versions/
+- https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647
+- https://discuss.pytorch.org/t/pytorch-with-cuda-11-compatibility/89254/21
+- https://stackoverflow.com/questions/72012334/pytorch-cuda-version-vs-nvidia-cuda-version
+```
+COMMAND
+```
 ## basic knowledge
 
 ## reference for pytorch learning
