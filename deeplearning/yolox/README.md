@@ -25,3 +25,8 @@ results.print()  # or .show(), .save()
 - pip install pandas
 - pip install requests
 - pip install pyyaml
+- pip install Pillow
+- pip install tqdm
+- pip install torchvision
+- pip install matplotlib
+- pip install seaborn
