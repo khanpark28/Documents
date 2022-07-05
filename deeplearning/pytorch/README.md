@@ -16,7 +16,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116
 ```
 
-### Additional python package for running YoloV5 with PyTorch
+### Additional python package for running YoloV5 with PyTorch (1. opencv , 2. torchvision)
 ```
 pip install opencv-python
 (pip install torchvision) <- NOT RECOMMENDED
@@ -32,6 +32,16 @@ torch                     1.13.0.dev20220705+cu116          pypi_0    pypi
 ```
 torch                     1.12.0                   pypi_0    pypi
 torchvision               0.13.0                   pypi_0    pypi
+```
+
+#### Build & Install torchvision to avoid overriding the pytorch which for cuda 11.6
+##### refer
+- https://pypi.org/project/torchvision/
+- https://github.com/pytorch/vision/blob/main/CONTRIBUTING.md#development-installation
+```
+git clone https://github.com/pytorch/vision.git
+cd vision
+python setup.py develop
 ```
 
 ### Install specific version of torchvision
