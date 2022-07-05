@@ -11,6 +11,11 @@
 wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 ```
 
+### Create basic environment using conda
+```
+$ create conda -n torch anaconda
+```
+
 ### Need a specific version of PyTorch for GTX 3070 for Laptop (sm_86)
 ```
 pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116
