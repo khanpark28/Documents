@@ -49,15 +49,14 @@ cd vision
 python setup.py develop
 ```
 
-### Install specific version of torchvision
+### reference for installing torchvision
 - https://pypi.org/project/torchvision/
 - https://pytorch.kr/get-started/previous-versions/
 - https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647
 - https://discuss.pytorch.org/t/pytorch-with-cuda-11-compatibility/89254/21
 - https://stackoverflow.com/questions/72012334/pytorch-cuda-version-vs-nvidia-cuda-version
-```
-COMMAND
-```
+
+
 ## basic knowledge
 
 ## reference for pytorch learning
