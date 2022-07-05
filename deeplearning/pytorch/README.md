@@ -22,7 +22,7 @@ pip install opencv-python
 (pip install torchvision) <- NOT RECOMMENDED
 ```
 
-Torchvision is also needed, but general way to install torchvision is not recommended since it override the special version for GTX 3070, which is installed already from installation for PyTorch.
+Torchvision is also needed, but general way to install torchvision is not recommended since it override the special version for RTX 3070, which is installed already from installation for PyTorch.
 
 #### Before install torchvision with 'pip install torchvision'
 ```
