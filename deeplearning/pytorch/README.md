@@ -8,7 +8,7 @@
 - https://clouds.eos.ubc.ca/~phil/docs/problem_solving/01-Orientation/01.05-Installing-Anaconda-on-Linux.html
 - https://repo.anaconda.com/archive/
 ```
-wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+$ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 ```
 
 ### Create basic environment using conda
@@ -18,13 +18,13 @@ $ create conda -n torch anaconda
 
 ### Need a specific version of PyTorch for GTX 3070 for Laptop (sm_86)
 ```
-pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116
+$ pip install torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116
 ```
 
 ### Additional python package for running YoloV5 with PyTorch (1. opencv , 2. torchvision)
 ```
-pip install opencv-python
-(pip install torchvision) <- NOT RECOMMENDED
+$ pip install opencv-python
+$ pip install torchvision <- NOT RECOMMENDED, why? described at below
 ```
 
 Torchvision is also needed, but general way to install torchvision is not recommended since it override the special version for RTX 3070, which is installed already from installation for PyTorch.
