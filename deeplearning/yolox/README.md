@@ -53,7 +53,7 @@ results = model(img)
 results.print()  # or .show(), .save()
 ```
 
-### require pre-installed library
+### require pre-installed library  => Actually not necessary. One of both is enough : 1) anacoda, opencv, torchvision  2) use requirement in Yolo folder
 - pip install -U numpy
 - pip install opencv-python
 - pip install pandas
