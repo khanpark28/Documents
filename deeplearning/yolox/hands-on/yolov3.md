@@ -39,12 +39,13 @@ from IPython.display import Image, clear_output
 Image(filename='data/images/bug.jpg', width=600)
 Image(filename='data/images/zidane.jpg', width=600)
 ```
+![image](https://user-images.githubusercontent.com/106988650/177858593-244c609e-9855-400d-bd76-9957156aa33e.png)
+![image](https://user-images.githubusercontent.com/106988650/177858610-4fb8bcfb-af9f-4a99-a5ef-ea19f33c435e.png)
+
 
 ### Inference with pre-trained model
 ```
 !python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source data/images
 ```
-
-
-![image](https://user-images.githubusercontent.com/106988650/177858356-48a186a9-b3e0-4a82-b4d1-020a9c30dd3d.png)
 ![image](https://user-images.githubusercontent.com/106988650/177858405-ad0be307-1f83-45e1-bda3-d253de50b29e.png)
+![image](https://user-images.githubusercontent.com/106988650/177858356-48a186a9-b3e0-4a82-b4d1-020a9c30dd3d.png)
