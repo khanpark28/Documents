@@ -43,7 +43,7 @@ Image(filename='data/images/zidane.jpg', width=600)
 ![image](https://user-images.githubusercontent.com/106988650/177858593-244c609e-9855-400d-bd76-9957156aa33e.png)
 
 
-### Inference with pre-trained model
+### Inference with pre-trained model & results
 ```
 !python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source data/images
 Image(filename='runs/detect/exp/bug.jpg', width=600)
