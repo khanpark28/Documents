@@ -39,8 +39,8 @@ from IPython.display import Image, clear_output
 Image(filename='data/images/bug.jpg', width=600)
 Image(filename='data/images/zidane.jpg', width=600)
 ```
-![image](https://user-images.githubusercontent.com/106988650/177858593-244c609e-9855-400d-bd76-9957156aa33e.png)
 ![image](https://user-images.githubusercontent.com/106988650/177858610-4fb8bcfb-af9f-4a99-a5ef-ea19f33c435e.png)
+![image](https://user-images.githubusercontent.com/106988650/177858593-244c609e-9855-400d-bd76-9957156aa33e.png)
 
 
 ### Inference with pre-trained model
