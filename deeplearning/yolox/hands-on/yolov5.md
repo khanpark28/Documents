@@ -57,7 +57,9 @@ nc: 1
 names: ['pothole']
 ```
 
+data.yaml file describes the images for trainging and validation.
 /home/hanee/workspace/yolov5/pothole/data.yaml file would be changed like <br>
+
 *from*
 ```
 train: ../train/images
@@ -66,7 +68,7 @@ val: ../valid/images
 nc: 1
 names: ['pothole']
 ```
-*to 
+*to*
 ```
 train: ./pothole/train/images
 test: ./pothole/test/images
