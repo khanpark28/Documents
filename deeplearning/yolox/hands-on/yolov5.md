@@ -57,8 +57,8 @@ nc: 1
 names: ['pothole']
 ```
 
-/home/hanee/workspace/yolov5/pothole/data.yaml file would be changed like
-from
+/home/hanee/workspace/yolov5/pothole/data.yaml file would be changed like <br>
+*from*
 ```
 train: ../train/images
 val: ../valid/images
@@ -66,7 +66,7 @@ val: ../valid/images
 nc: 1
 names: ['pothole']
 ```
-to 
+*to 
 ```
 train: ./pothole/train/images
 test: ./pothole/test/images
