@@ -1,4 +1,5 @@
 ## Hands on Jupyter notebook
+Running YoloV3 with pre-trained Model
 
 ### Run Jupyter Server
 ```
@@ -21,5 +22,29 @@ $ jupyter notebook
      or http://127.0.0.1:8888/?token=d18b04fda35d857337058a411784ac53e9de859901dbe39f
 ```
 
-### Access localhost:XXX 
-- 
+### Access jupyter in brower
+- localhost:xxxx 
+- login with token represented in starting log of Jupyter Server
+
+### Download YoloV3
+```
+$ git clone https://github.com/ultralytics/yolov3
+$ cd yolov3
+```
+
+### check image before inference
+```
+import torch
+from IPython.display import Image, clear_output
+Image(filename='data/images/bug.jpg', width=600)
+Image(filename='data/images/zidane.jpg', width=600)
+```
+
+### Inference with pre-trained model
+```
+!python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source data/images
+```
+
+
+![image](https://user-images.githubusercontent.com/106988650/177858356-48a186a9-b3e0-4a82-b4d1-020a9c30dd3d.png)
+![image](https://user-images.githubusercontent.com/106988650/177858405-ad0be307-1f83-45e1-bda3-d253de50b29e.png)
