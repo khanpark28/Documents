@@ -48,3 +48,7 @@ names: ['head', 'helmet', 'persion']
 ### modify ./models/yolov5s.yaml
 - nc:3
 
+## Training
+```
+python train.py --img 416 --batch 64 --epochs 50 --data ./hardhat/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name hardhat_results --cache
+```
