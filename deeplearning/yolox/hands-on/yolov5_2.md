@@ -54,4 +54,10 @@ Image(filename='./runs/train/wildsmoke_results/val_batch0_labels.jpg', width=100
 ![image](https://user-images.githubusercontent.com/106988650/178041539-9a927e5e-d01f-4722-b486-34bec8c7edf3.png)
 
 
+## Inference
+```
+!python detect.py --weights runs/train/wildsmoke_results/weights/best.pt --img 640 --conf 0.4 --source ./wildsmoke/test/images
+
+```
+
 
