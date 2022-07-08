@@ -2,7 +2,7 @@
 - https://public.roboflow.com/object-detection/wildfire-smoke
 - 737 images
 
-## Download images
+## Download Datasets
 - Make directory in yolov5 and download under it. 
 ```
 $ curl -L "https://public.roboflow.com/ds/38ig6f2JWr?key=CDpIvfNGdg" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
