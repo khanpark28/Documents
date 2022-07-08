@@ -10,6 +10,7 @@ curl -L "https://public.roboflow.com/ds/LCyi29rUCY?key=Y1KktqzoGI" > roboflow.zi
 ```
 
 ## Preparation
+### dataset split
 - split image for validation since downloaded dataset does not contain validation set
 ```
 from glob import glob
@@ -32,4 +33,18 @@ with open('/home/hanee/workspace/yolov5/hardhat/val.txt', 'w') as f:
 with open('/home/hanee/workspace/yolov5/hardhat/test.txt', 'w') as f:
   f.write('\n'.join(test_img_list) + '\n')
 ```
+
+### modify data.yaml
+- test and val has same dataset, even the list is split. The dataset itself is not changed. 
+```
+train: ./hardhat/train/images 
+test: ./hardhat/test/images
+val: ./hardhat/test/images
+
+nc: 3
+names: ['head', 'helmet', 'persion']
+```
+
+### modify ./models/yolov5s.yaml
+- nc:3
 
