@@ -14,6 +14,7 @@
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
 %mkdir pothole
+cd pothole
 !curl -L "https://public.roboflow.com/ds/VFkK3jL73D?key=fcA9ufK03w" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip <- exmple, would be difference for each user
 ```
 
