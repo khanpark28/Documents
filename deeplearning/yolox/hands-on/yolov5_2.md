@@ -67,6 +67,20 @@ val: Scanning '/home/hanee/workspace/yolov5/wildsmoke/valid/labels.cache' images
 Speed: 0.5ms pre-process, 2.4ms inference, 3.4ms NMS per image at shape (32, 3, 640, 640)
 Results saved to runs/val/exp3
 ```
+```
+$ python val.py --weights runs/train/wildsmoke_results/weights/best.pt --data ./wildsmoke/data.yaml --img 640 --task test
+val: data=./wildsmoke/data.yaml, weights=['runs/train/wildsmoke_results/weights/best.pt'], batch_size=32, imgsz=640, conf_thres=0.001, iou_thres=0.6, task=test, device=, workers=8, single_cls=False, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=runs/val, name=exp, exist_ok=False, half=False, dnn=False
+YOLOv5 🚀 v6.1-280-g27d831b Python-3.8.13 torch-1.13.0.dev20220705+cu116 CUDA:0 (NVIDIA GeForce RTX 3070 Laptop GPU, 8192MiB)
+
+Fusing layers...
+custom_YOLOv5s summary: 213 layers, 7012822 parameters, 0 gradients
+test: Scanning '/home/hanee/workspace/yolov5/wildsmoke/test/labels' images and labels...74 found, 0 missing, 0 empty, 0 corrupt: 100%|██████████| 74/74 [00:00<00:00, 4007.06it/s]
+test: New cache created: /home/hanee/workspace/yolov5/wildsmoke/test/labels.cache
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|██████████| 3/3 [00:01<00:00,  1.53it/s]
+                 all         74         74      0.943      0.878      0.935        0.5
+Speed: 0.5ms pre-process, 3.3ms inference, 3.5ms NMS per image at shape (32, 3, 640, 640)
+Results saved to runs/val/exp4
+```
 
 ## Inference
 ```
