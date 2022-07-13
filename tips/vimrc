@@ -1,0 +1,16 @@
+set number
+set hlsearch
+
+" Cursor type
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
+set expandtab
+set ts=4
+set autoindent
+
+set t_Co=256
+colors zenburn
+
+set laststatus=2
+set statusline+=%F
